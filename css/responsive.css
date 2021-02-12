@@ -1,0 +1,11 @@
+@media(max-width: 800px){
+    /* portafolio-main */
+    .portafolio-box {
+        grid-template-columns: 1fr;
+        grid-template-areas: "carousel"
+                            "card"
+                            "sidebar"
+                            "widgetLeft"
+                            "widgetRight";
+    }
+}
