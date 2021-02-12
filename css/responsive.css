@@ -1,11 +1,29 @@
 @media(max-width: 800px){
     /* portafolio-main */
+    .portafolio-main {
+        padding: 0px 10px;
+    }
     .portafolio-box {
-        grid-template-columns: 1fr;
-        grid-template-areas: "carousel"
-                            "card"
-                            "sidebar"
-                            "widgetLeft"
-                            "widgetRight";
+        grid-template-areas: "carousel carousel carousel carousel"
+                         "card card card card"
+                         "sidebar sidebar sidebar sidebar"
+                         "widgetLeft widgetLeft widgetLeft widgetLeft"
+                         "widgetRight widgetRight widgetRight widgetRight";
+    }
+
+    /* footer */
+    .footer-box p {
+        font-size: 0.875em;
+    }
+    .footer-nav {
+        text-align: center;
+    }
+    .footer-nav a{
+        font-size: 0.875em;
+    }
+    .footer-nav span {
+        font-size: 0.875em;
+        display: block;
+        padding-top: 5px;
     }
 }
